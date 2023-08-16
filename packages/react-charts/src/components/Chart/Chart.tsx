@@ -585,7 +585,7 @@ export const Chart: React.FunctionComponent<ChartProps> = ({
           colorScale,
           ...(defaultPatternScale && { patternScale: defaultPatternScale }),
           ...(name &&
-            typeof (child as any).name !== undefined && {
+            typeof (child as any).name !== 'undefined' && {
               name: `${name}-${(child as any).type.displayName}-${index}`
             }),
           theme,

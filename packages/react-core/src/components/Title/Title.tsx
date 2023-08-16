@@ -17,8 +17,10 @@ enum headingLevelSizeMap {
   h2 = 'xl',
   h3 = 'lg',
   h4 = 'md',
+  /* eslint-disable @typescript-eslint/no-duplicate-enum-values */
   h5 = 'md',
   h6 = 'md'
+  /* eslint-enable @typescript-eslint/no-duplicate-enum-values */
 }
 
 type Size = 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl';
